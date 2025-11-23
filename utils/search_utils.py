@@ -12,3 +12,4 @@ def perform_web_search(query: str) -> str:
         return results
     except Exception as e:
         return f"Error performing web search: {str(e)}"
+

@@ -38,8 +38,7 @@ def get_embedding_model(provider="huggingface"):
             return GoogleGenerativeAIEmbeddings(
                 google_api_key=config.GOOGLE_API_KEY,
                 model="models/embedding-001"
-            )
-            
+            )          
         else:
             # Fallback to huggingface
             return HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")

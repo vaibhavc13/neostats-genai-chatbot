@@ -34,7 +34,6 @@ def load_and_split_document(file_path: str) -> List[Document]:
         
     except Exception as e:
         raise RuntimeError(f"Error processing document: {str(e)}")
-
 def create_vector_store(chunks: List[Document], embedding_provider="huggingface"):
     """
     Create a FAISS vector store from document chunks.

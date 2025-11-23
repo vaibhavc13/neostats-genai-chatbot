@@ -7,7 +7,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from config import config
 
-
 def get_llm(provider="groq", model_name=None, openai_api_key=None):
     """
     Initialize and return the chat model based on provider.

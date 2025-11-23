@@ -3,8 +3,6 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-
-
 # API Keys - It is recommended to set these as environment variables
 # or fill them in here for local testing (do not commit keys to git)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")

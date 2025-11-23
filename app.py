@@ -99,7 +99,6 @@ def instructions_page():
     
     Ready to start chatting? Navigate to the **Chat** page using the sidebar! 
     """)
-
 def chat_page():
     """Main chat interface page"""
     st.title(config.APP_TITLE)

@@ -17,8 +17,7 @@ else:
         "gemini-1.0-pro",
         "models/gemini-1.5-flash",
         "models/gemini-pro"
-    ]
-    
+    ]    
     print(f"Testing models with API Key: {api_key[:5]}...")
     
     for model_name in models_to_test:
